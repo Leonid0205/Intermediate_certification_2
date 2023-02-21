@@ -26,17 +26,6 @@ snap remove chromium
 crontab -e
 crontab -l
 */3 * * * * cat /home/leonid/lws/*.txt > /home/leonid/lws/*.txt
-
-/*
-mv Игрушки_для_школьников/Игрушки_для_школьников Игрушки_для_дошколят/
-cd Игрушки_для_дошколят/
-cat Игрушки_для_школьников Игрушки_для_дошколят > Игрушки
-cat Игрушки
-мягкими игрушками, куклами, машинками
-роботы, конструктор, настольные игры
-mv Игрушки_для_дошколят Игрушки
-*/
-
 sudo snap install chromium
 snap list
 snap remove chromium
