@@ -32,5 +32,3 @@ snap remove chromium
 crontab -e
 crontab -l
 */3 * * * * cat /home/leonid/lws/*.txt > /home/leonid/lws/*.txt
-
-
